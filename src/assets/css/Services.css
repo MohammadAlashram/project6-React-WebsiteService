@@ -1,0 +1,31 @@
+#imgSliderTitle {
+  font-family: Ubuntu;
+  text-align: center;
+  color: #cc3333;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#imgSliderCon {
+  width: 60%;
+  /* background-color: #FFFAFA; */
+}
+@media only screen and (max-width: 1024px) {
+  #imgSliderTitle {
+    font-size: 15pt;
+    padding-bottom: 3%;
+  }
+  #imgSliderCon {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #imgSliderTitle {
+    font-size: 20pt;
+    padding-bottom: 3%;
+  }
+  #imgSliderCon {
+    width: 50%;
+  }
+}

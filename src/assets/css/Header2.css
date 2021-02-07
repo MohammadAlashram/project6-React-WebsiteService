@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1024px) {
+  #logo2 img {
+    display: none;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .navbar-toggler {
+    border: 1px solid black;
+    color: #fff;
+  }
+  .navbar-brand {
+    margin-top: 0 !important;
+    padding-bottom: 0;
+  }
+  #navRes {
+    height: 0;
+  }
+}

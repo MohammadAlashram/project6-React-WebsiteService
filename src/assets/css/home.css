@@ -1,0 +1,283 @@
+
+body {
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+ /* home hero section */
+  .heroText {
+     text-align: center;
+     font-family: Ubuntu, "times new roman", times, roman, serif;
+     position: absolute;
+     top: 350px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+ 
+      
+  }
+
+  .head {
+     color:#fff;
+     font-size: 50pt;
+  }
+
+  .p {
+     font-size: 15pt;
+  }
+
+  .videoHero {
+   /* width: 1380px; */
+   width:100%;
+   height: 580px;
+   z-index: -1;
+   top: 0px;
+   bottom: 0px;
+  
+   padding: 0px;
+   object-fit: cover;
+  
+  }
+
+
+  /* home services section */
+
+.card-deck {
+padding: 2em;
+margin: 2em;
+position: relative ;
+
+ 
+}
+
+/* .card img{
+   opacity: 1;
+   transition: .5s ease;
+   backface-visibility: hidden;
+} */
+
+#cardser {
+   transition: .5s ease;
+   display: block;
+   position: absolute;
+   font-family: Ubuntu, "times new roman", times, roman, serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   color: #fff;
+   font-weight: bold;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.45);
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+
+.card:hover #cardser {
+   background-color: transparent;
+}
+
+.card:hover #titleser {
+  visibility: hidden;
+}
+
+#titleser {
+   text-align: center;
+   padding-top: 15rem;
+}
+
+  /* home services section */
+ .headVid {
+    color: #CC3333;
+    padding-bottom: 3rem;
+ }
+
+/* video*/
+#vidP{
+   width:40rem;
+}
+
+  /* home testemonials section */
+
+#carousalItem {
+   transition: .5s ease;
+   display: block;
+   position: absolute;
+   font-family: Ubuntu, "times new roman", times, roman, serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   color: #fff;
+   font-weight: bold;
+   text-align: left;
+   background-color: rgba(0, 0, 0, 0.65);
+   margin: auto;
+   /* width: 100%;
+   height: 100%; */
+   overflow: hidden;
+}
+
+#tesimg{
+margin: auto;
+padding-top: 4rem;
+}
+#test {
+   text-align: left;
+   margin: auto;
+   padding-bottom: 6rem;
+
+}
+#test  h1{
+   text-align: left;
+   margin: auto;
+   padding-bottom: 1rem;
+   padding-top: 30px;
+   font-size: 35pt;
+   color: #CC3333;
+
+}
+#test  img{
+width: 3rem;
+padding-bottom: 1rem;
+
+}
+
+
+/* home CTA section */
+#CTA {
+ margin: auto;
+width: 70%;
+border: none;
+padding-top: 6rem;
+padding-bottom: 5rem;
+padding-left: 6rem;
+}
+
+
+#CTAtext {
+ padding-top: 2%;
+ padding-LEFT: 8%;
+ font-size: 25pt;
+ font-weight: bold;
+ color: #CC3333;
+ width: 80%;
+ font-family: ubuntu;
+
+}
+#buttonCTA {
+  margin-LEFT: 8%;
+}
+
+  /* @media only screen and (max-width: 1024px) {
+   .videoHero {
+       max-width: 100%;
+   }
+ 
+} */
+
+
+/* @media only screen and (max-width: 1024px) {
+   .videoHero {
+       max-width: 100%;
+   }
+ 
+} */
+/* @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+   .videoHero {
+      max-width: 1024px;
+  }
+} */
+
+  @media only screen and (max-width: 1024px) {
+   .head {
+      font-size: 20pt; 
+   }
+   .p {
+      font-size: 10pt; 
+   }
+   #button {
+      font-size: 10pt; 
+   }
+  #titleser {
+      text-align: center;
+      font-size: 12pt;
+      padding-top: 5rem;
+   }
+   #vidP{
+      width:70%;
+   }
+   #first{
+  display: none;
+      }
+      #test {
+         text-align: left;
+      
+  
+         display: block;
+         padding-bottom: 0px;
+         padding-top: 0px;
+      
+      }
+  
+      #test  h1{
+         text-align: left;
+         margin: auto;
+         padding-bottom: 2px;
+         padding-top: 40px;
+         font-size: 15pt;
+         color: #CC3333;
+      
+      }
+      #test  p{
+         text-align: left;
+         padding-bottom: 2px;
+         font-size: 10pt;
+      }
+      #test  img{
+         width: 1rem;
+         padding-bottom: 1rem;
+         
+         }
+         #carousalItem{
+            height: 200px;
+         }
+         #carouselExampleControls {
+            height: 200px;
+         }
+         #black {
+            height: 200px;
+         }
+
+         /* CTA */
+         #CTA {
+            margin: auto;
+            padding-left: 0;
+            /* margin: auto;
+           width: 70%;
+           border: none;
+           padding-top: 6rem;
+           padding-bottom: 5rem;
+           padding-left: 6rem; */
+           }
+           
+          
+           #CTAtext {
+            /* padding-top: 2%;
+            padding-LEFT: 8%; */
+            font-size: 10pt;
+            font-weight: bold;
+            color: #CC3333;
+            width: 100%;
+            font-family: ubuntu;
+           
+           }
+           #buttonCTA {
+             /* margin-LEFT: 8%; */
+             font-size: 10pt;
+           }
+}
+
+
+

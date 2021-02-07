@@ -1,0 +1,124 @@
+/* start booking_room */
+.online_reservation{
+	position: relative;
+	margin-top: -75px;
+	z-index: 999;
+}
+.b_room{
+	margin: 2% 2%;
+	display: inline-flex;
+	box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-webkit-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-moz-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-o-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+}
+.booking_room{
+	padding: 2%;
+	float: left;
+	width: 22.33333%;
+	background: #E4E4E4;
+}
+.booking_room h4{
+	font-size: 1.5em;
+	color: #202020;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.booking_room p{
+	font-size: 0.8725em;
+	color: #6b6b6b;
+	line-height: 1.8em;
+}
+.reservation{
+	font-family: 'Open Sans', sans-serif;
+	padding: 2%;
+	float: left;
+	width: 74.33333%;
+	background: #FFFFFF;
+}
+.reservation ul li{
+	float: left;
+}
+.reservation ul li.left{
+	margin-left: 15px;
+}
+.reservation ul li.span1_of_1{
+	width: 21.33333%;
+}
+.reservation ul li.span1_of_2{
+	width: 9.33333%;
+}
+.reservation ul li.span1_of_3{
+	width: 18.33333%;
+	margin-left: 20px;
+}
+.reservation h5{
+	font-size: 1em;
+	color: #5F5F5F;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+select {
+	width: 100%;
+	color: #858585;
+	font-size: 0.8725em;
+	padding: 7px;
+	outline: none;
+	margin: 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	background: #ffffff;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+}
+select option{
+	border: 1px solid #DFDFDF;
+	outline: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.book_date input[type="text"]{
+	width: 88%;
+	color: #858585;
+	font-size: 0.8725em;
+	padding: 8px;
+	outline: none;
+	margin: 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-appearance: none;
+}
+.date{
+	/* background:url(../images/cal-icon.png) no-repeat 100% 50% #FFF; */
+}
+.date_btn{
+	margin-top: 33px;
+}
+.date_btn form input[type="submit"] {
+	text-transform:capitalize;
+	width: 100% !important;
+	background: #32A2E3;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	padding: 8px;
+	border: none;
+	font-size: 1em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	outline: none;
+	cursor: pointer;
+}
+.date_btn form input[type="submit"]:hover{
+	background: #228AC6;
+}
